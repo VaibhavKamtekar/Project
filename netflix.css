@@ -1,0 +1,567 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(black,rgba(26, 26, 26, 0),transparent), url(img/netflixbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10% ;
+}
+header #left img{
+    padding-top: 0;
+    width: 27%;
+}
+header #right{
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+}
+header #right select{
+    background-color: rgba(0, 0, 0, 0.456);
+    color: white;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    border-radius: 5px;
+    width: 32%;
+}
+
+header #right .fa-solid.fa-globe{
+    color: white;
+    position: absolute;
+    top: 26%;
+    left: 26%;
+}
+header #right button{
+    width: 20%;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#hbody{
+    margin-top: 3rem;
+    
+    text-align: center;
+    color: white;
+    
+}
+#hbody h1{
+    margin: 4rem;
+    font-size: 48px;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+    padding-top: 0;
+} 
+#hbody p{
+    font-size: 30px;
+}
+#hbody #a{
+    font-size: 1.25rem;
+}
+#hbody #input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+#hbody #input input{
+    width: 25%;
+    height: 3rem;
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.33);
+    color: white;
+    padding-left: 20px;
+}
+#hbody #input button{
+    width: 15%;
+    font-size: 18px;
+    background-color: #E50914;
+    color: white;
+    border-radius: 5px;
+}
+::placeholder { 
+    color: white;
+    opacity: 1; 
+}
+#enjoy{
+    color: white;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20rem;
+}
+#enjoy div{
+    width: 50%;
+}
+#enjoy #smart h1{
+    font-size: 2.8rem;
+}
+#enjoy #smart p{
+    font-size: 1.2rem;
+}
+#enjoy #tv img{
+    width: 100%;
+    
+}
+#enjoy #tv{
+    position: relative;
+}
+#enjoy #tv video{
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    width: 73%;
+   z-index: -1;
+}
+#download{
+    display: flex;
+    color: white;
+    margin-top: 20%;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+#download #show h1{
+    font-size: 2.8rem;
+}
+#download #show p{
+    font-size: 1.2rem;
+}
+#download #mobile{
+    width: 45%;
+    position: relative;
+}
+#download #show{
+    width: 45%;
+}
+#download #mobile #ele{
+    width: 100%;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid grey;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0%;
+    left: 17%;
+    background-color: black;
+    height: 20%;
+}
+#box #strange{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#box #strange img{
+    width: 90%;
+}
+#box #things h3{
+    font-size: 1rem;
+}
+#box #things p{
+    color: #0063e2;
+}
+#box #gif{
+    width: 15%;
+}
+#box #gif img{
+    width: 100%;
+}
+#div3{
+    color: white;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 9rem;
+}
+#div3 #cont1{
+    width: 50%;
+}
+#div3 #cont1 h1{
+    font-size: 2.8rem;
+}
+#div3 #cont1 p{
+    font-size: 1.2rem;
+}
+#div3 #itv  {
+    width: 50%;
+}
+#div3 #itv img{
+    width: 100%;
+}
+#div3 #itv{
+    position: relative;
+}
+#div3 #itv video{
+    position: absolute;
+    top: 6%;
+    left: 19%;
+    width: 61%;
+    z-index: -1;
+}
+#div4{
+    color: white;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 9rem;
+}
+#div4 #child{
+    width: 50%;
+
+}
+#div4 #child img{
+    width: 100%;
+}
+#div4 #kids{
+    width: 50%;
+}
+#div4 #kids h1{
+    font-size: 2.8rem;
+}
+#div4 #kids p{
+    font-size: 1.2rem; 
+}
+#faq{
+    width: 77%;
+    margin: auto;
+    padding: 0;
+    margin-top: 7rem;
+    color: white;
+    text-align: center;
+}
+#faq h1{
+    font-size: 2.8rem;
+}
+#faq #buttons button{
+    background-color: #2d2d2d;
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 20px 60px 20px 40px  ;
+    margin-bottom: 0.50rem;
+    font-size: 1.6rem;
+    border: none;
+    position: relative;     
+}
+.fa-solid.fa-plus{
+    position: absolute;
+    padding-top: 1.3rem;
+    right: 11.5rem;
+    font-size: 2.2rem;
+}
+#faq #Q p{
+    font-size: 1.2rem;
+}
+#faq #input{
+    width: 100%;
+    margin: auto;
+}
+#faq #input input{
+    width: 35%;
+    padding: 0 ;
+    margin-right: 10px;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 2px;
+    outline: 2px solid #2d2d2d;
+
+}
+#faq #input input::placeholder{
+    padding: 0 0 0 10px;
+    color: white;
+}
+#faq #input button{
+    width: 25%;
+    padding: 0;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2px;
+    background-color: #E50914;
+    color: white;
+}
+footer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+}
+footer section{
+    color: #9d9c9c;
+    width: 100%;
+    background-color: transparent;
+    display: block;
+}
+footer section #link{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    
+}
+footer section #link ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0;
+}
+footer section #link ul li{
+    margin: 1rem 0;
+}
+a{
+    color:#9d9c9c;
+    font-weight: 300;
+    
+}
+
+
+
+
+/* ---------mobile--------- */
+@media (max-width:600px){
+    body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.384),rgba(26, 26, 26, 0),transparent), url(img/netflixbanner.jpg);
+    background-size: 220%;
+    background-position-x: center;
+    background-color: black;
+
+}
+header{
+    width: 100%;
+    position: relative;
+}
+header #left{
+    width: 20%;
+}
+header #left img{
+    position: absolute;
+    left: 1rem;
+}
+header #right{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 70%;
+}
+header #right select{
+    background-color: transparent;
+    position: relative;
+    width: 18%;
+}
+header #right .fa-solid.fa-globe{
+    color: white;
+    position: absolute;
+    left: 33%;
+}
+#hbody{
+    margin-top: 3rem;
+    color: white;
+}
+#hbody h1{
+    margin: 0;
+    font-size: 2rem;
+    padding-top: 4.5rem;
+    padding-top: 4rem;
+} 
+#hbody p{
+    font-size: 1.2rem;
+}
+#hbody #a{
+    font-size: 1.2rem;
+    padding: 0rem 3rem;
+}
+#hbody #input{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+#hbody #input input{
+    width: 75%
+}
+#hbody #input button{
+    width: 55%;
+    height: 3rem;
+    border: none;
+    margin-top: 1rem;
+}
+#enjoy{
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-top: 6rem;
+    padding: 0;
+}
+#enjoy div{
+    width: 100%;
+    text-align: center;
+    
+}
+#enjoy #smart h1{
+    font-size: 2rem;
+}
+#enjoy #smart p{
+    font-size: 1.3rem;
+}
+#enjoy #tv img{
+    width: 100%;  
+}
+#download{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 6rem;
+    width: 95%;
+    margin: auto;
+    padding: 0;
+}
+#download #show{
+    width: 100%;
+    text-align: center;
+}
+#download #show h1{
+    font-size: 2rem;
+}
+#download #show p{
+    font-size: 1.2rem;
+}
+#download #mobile{
+    width: 100%;
+    position: relative;
+}
+#download #mobile #ele{
+    width: 100%;
+}
+#div3{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    margin-top: 6rem;
+}
+#div3 #cont1{
+    width: 100%;
+    text-align: center;
+}
+#div3 #itv  {
+    width: 100%;
+}
+#div3 #cont1 h1{
+    font-size: 2rem;
+}
+#div3 #cont1 p{
+    font-size: 1.2rem;
+}
+#div4{
+    display: flex;
+    flex-direction:column-reverse;
+    width: 95%;
+    margin: auto;
+    margin-top: 6rem;
+}
+#div4 #kids{
+    text-align: center;
+    width: 100%;
+}
+#div4 #kids h1{
+    font-size: 2rem;
+}
+#div4 #kids p{
+    font-size: 1.2rem; 
+} 
+#div4 #child{
+    width: 100%;
+}
+#faq{
+    width: 95%;
+    margin-top: 6rem;
+}
+#faq h1{
+    font-size: 2rem;
+}
+#faq #buttons button{
+    width: 90%;
+    padding: 20px 60px 20px 20px  ;
+    font-size: 1.1rem;
+}
+.fa-solid.fa-plus{
+    position: absolute;
+    padding-top: 1.3rem;
+    right: 2.5rem;
+    font-size: 1.1rem;
+}
+#faq #Q {
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+}
+#faq #Q p{
+    font-size: 1.1rem;
+}
+#faq #input{
+    width: 95%;
+    margin: auto;
+}
+#faq #input input{
+    width: 90%;
+    margin: auto;
+    font-size: 1rem;
+}
+#faq #input button{
+    width: 50%;
+    margin-top: 1rem;
+    height: 3rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #E50914;
+    color: #fefeff;
+}
+footer{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content:left    ;
+    align-items: left;
+    margin: auto;
+    padding: 1rem;
+}
+footer section #link{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#footer section #link ul{
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+footer section #link ul li{
+    margin: 1rem 0;
+}
+}

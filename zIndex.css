@@ -1,0 +1,36 @@
+h1{
+    margin: 0;
+}
+div{
+    position: relative;
+}
+#red{
+    background-color: red;
+    position: absolute;
+    z-index: 3;
+}
+#green{
+    background-color: green;
+    position: absolute;
+    z-index: 2;
+}
+#blue{
+    background-color: blue;
+    position: absolute;
+    z-index: 1;
+}
+#yellow{
+    background-color: yellow;
+    position: absolute;
+    z-index: 6;
+}
+#grey{
+    background-color: grey;
+    position: relative;
+    z-index: 5;
+}
+#wheat{
+    background-color: wheat;
+    position: absolute;
+    z-index: 4;
+}

@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+}
+section #text{
+    width: 50%;
+    margin: 0;
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+section #text #flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+    height: 5rem;
+}
+section #text #flex #logo{
+    width: 32%
+}
+section #text #flex #logo img{
+    width: 100%;
+    height: 4rem;
+}
+#login{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 30px;
+    cursor:pointer;
+}
+#login:hover{
+    color: #fd8019;
+}
+#sign{
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 10px 30px;
+    cursor:pointer;
+} 
+#cont1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+}
+#cont1 #dig h1{
+    color: #282c3f;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+#cont1 #dig p{
+    margin-top: 1rem;
+    color: #92949e;
+    font-size: 1.2rem;
+}
+#search{
+    margin-top: 2rem;
+    display: flex;
+    gap: 0;
+    width: 100%;
+}
+#search{
+    position: relative;
+}
+#search input{
+    padding: 1rem 0;
+    width: 50%;
+    
+}
+#search input::placeholder{
+    text-align: center;
+}
+.fa-solid.fa-location-crosshairs{
+    color: #282c3f56;
+    position: absolute;
+    top: 35%;
+    right: 62%;
+
+}
+#search button{
+    padding: 1rem 0;
+    width: 30%;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    background-color: #fd8019;
+}
+#cont1 p{
+    color: #92949e;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+#cont1 a{
+    margin-top: 0s;
+    text-decoration: none;
+}
+#cont1 a p{
+    width: 85%;
+    margin-top: 0;
+}
+#cont1 a p strong{
+    color: #686b79;
+}
+section #img{
+    width: 50%;
+}
+section #img img{
+    width: 100%;
+}
+

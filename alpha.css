@@ -1,0 +1,433 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(img/Alphabanner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: whitesmoke;
+    margin: 0;
+}
+#logo{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+
+header #left h1{
+    font-size: 1rem;
+    color: white;
+}
+
+header #right #hm{
+    display: flex;
+    list-style-type:none;
+    margin: 0px;
+    
+}
+
+header #right #hm li a{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    display: block;
+}
+
+header #right #hm a button{
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid rgb(199, 188, 188);
+    height: 2rem;
+    width: 5rem;
+}
+
+header #right #hm #drop{
+    position: relative;
+}
+
+
+header #right #hm #drop #menu {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    background-color: white;
+    width: 129%;
+    top: 100%;
+    left: -42%;
+    display: none;
+}
+
+header #right #hm #drop #menu li a{
+    color: black;
+    border-bottom: 1px solid rgb(134, 116, 116);
+
+}
+
+header #right #hm #drop #menu li a:hover{
+    background-color:brown;
+    
+
+}
+
+header #right #hm #drop:hover #menu{
+    display: block;
+    
+}
+
+
+header #left h1 span{
+    font-weight: 100;
+}
+
+#alpha{
+    text-align: center;
+    color: white;
+    margin-top: 8rem;
+}
+
+#alpha h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+
+}
+
+#alpha p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#alpha button{
+    background-color: white;
+    height: 3rem;
+    width: 14%;
+    border-radius: 5%;
+    border: none;
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: grey;
+}
+
+#alpha #ld{
+    background-color: transparent;
+    border: 2px solid rgb(121, 113, 113);
+    color: white;
+}
+#intro{
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10rem;
+    padding: 52px;
+    color: #646464;
+    font-weight: 20px;
+}
+#intro h1{
+    font-size: 2rem;
+}
+#intro p{
+    font-size: 1.2rem;
+    border-top: 2px solid grey;
+    width: 60%;
+    margin: auto;
+    padding: 2rem 0rem;
+}
+#intro img{
+    width: 100%;
+}
+#icon{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 1.5rem;
+    border-radius: 5PX;
+    padding: 1rem;
+}
+#icon div{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    padding-top: 2rem;
+    margin: auto;
+}
+#icon div i{
+    width: 20%;
+    height: 4rem;
+    font-size: 2rem;
+    color: white;
+    padding-top: 2rem;
+    border-radius: 50%;
+}
+.fa-solid.fa-bolt-lightning{
+    background-color: #e89980; 
+}
+.fa-solid.fa-chart-area{
+    background-color: #7fcdb8;
+}
+.fa-solid.fa-cloud{
+    background-color: #90b0ba;
+}
+.fa-solid.fa-lock{
+    background-color: #e5cb95;
+}
+#icon #first{
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+#icon #fourth{
+   border-top: 2px solid grey;
+   border-left: 2px solid grey;
+}
+#cards{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+#cards div{
+    background-color: white;
+    width: 48%;
+    text-align: center;
+    border-radius: 5px; 
+    padding-bottom: 1rem;
+}
+#cards div img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+#cards div button{
+    border-radius: 5px;
+    width: 25%;
+    height: 3rem;
+    background-color: white;
+    border: 2px solid rgb(121, 113, 113);
+}
+#signup{
+    background-color:#e89980;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-size: 100%;
+}
+#signup form{
+    display: block;
+    margin-top: 0rem;
+    padding-bottom: 3rem;
+}
+#signup h1{
+    padding-top: 2rem;
+    font-size: 2.25em;
+    line-height: 1.5em;
+    letter-spacing: -0.035em;
+    font-weight: 1;
+}
+#signup p{
+    margin: 0 0 2em 0;
+}
+#signup input{
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.15);
+    border: 0;
+    padding: 1px 2px;
+    height: 3rem ;
+    width: 20%;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 1rem;
+    outline: none;
+}
+#signup input:hover{
+    outline: 2px solid white;
+}
+#signup button{
+    width: 10%;
+    height: 3rem;
+    border-radius: 5px;
+    color: #e89980;
+    font-size: 1rem;
+    border: 0;
+}
+::placeholder{
+    padding-left:10px ;
+    color: white;
+}
+footer{
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 4em 0 6em 0;
+}
+footer #links a i{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: #c6c6c6;
+    
+}
+footer #links a i:hover{
+    color: #646464;
+    transition-duration: 0.2s;
+}
+footer #link{
+    padding: 2rem 0rem 4rem 0rem;
+}
+footer #cont3{
+    color: #646464;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer #cont3 p{
+    font-size: 0.75rem;
+    border-right: 1px solid #646464;
+    padding-right: 10px;
+    margin-right: 15px;
+}
+footer #cont3 p a{
+    text-decoration: none;
+    border-bottom: 1px dotted #646464;
+    color: #646464;
+}
+footer #cont3 p a:hover{
+    transition-duration: 5s;
+    border-bottom: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------mobile-------------- */
+@media (max-width:600px){
+    body{
+
+        background-size: 190%;
+        background-position-x: center;
+    }
+    #logo{
+        display: inline-block;
+        color: white;
+        background-color: #d0d0d0;
+        padding: 2px 1rem;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    header{
+        display: none;
+    }
+    #alpha{
+        width: 80%;
+        margin-top: 0rem;
+        margin: auto;
+    }
+    #alpha h1{
+        font-size: 2rem;
+    }
+    #alpha p{
+        font-weight: 550;
+    }
+    #alpha button{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #intro{
+        width: 100%;
+        margin-top: 1rem;
+        padding: 1rem 0rem;
+        border-radius: 0px;
+    }
+    #intro h1{
+        font-size: 1.5rem;
+    }
+    #intro p{
+        width: 90%;
+        margin: auto;
+    }
+    #intro img{
+        width: 100%;
+    }
+    #icon{
+        width: 90%;
+        margin: auto;
+    }
+    #icon div{
+        display: block;
+        width: 100%;
+    }
+    #icon #first{
+        border-right: none;
+        border-bottom: 2px solid #c6c6c6;
+    }
+    #icon div{
+        border-bottom: 2px solid #c6c6c6;
+    }
+    #icon #fourth{
+        border-top: none;
+        border-left: none;
+        border-bottom: 2px solid #c6c6c6;
+    }
+    #cards{
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+        display: block;
+    }
+    #cards div{
+        width: 100%;
+    }
+    #signup h1{
+        padding-top: 2rem;
+        font-size: 1.75rem;
+        line-height: 1.5em;
+        letter-spacing: -0.035em;
+        font-weight: 1;
+    }
+    #signup p{
+        font-size: 0.85rem;
+        margin: 0 0 2em 0;
+    }
+    #signup input{
+        width: 90%;
+        border-radius: 5px;
+        font-size: 0.95rem;
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+        outline: none;
+    }
+    #signup button{
+        width: 90%; 
+        height: 3rem;
+        font-size: 0.95rem;
+    }
+    footer #links a i{
+        padding-right: 10px;
+        font-size: 1.5rem;
+    }
+    footer #link{
+        padding: 2rem 0rem 4rem 0rem;
+    }
+    footer #cont3{
+        display: block;
+        text-align: center;
+    }
+    footer #cont3 p{
+        border: none;
+    }
+}
